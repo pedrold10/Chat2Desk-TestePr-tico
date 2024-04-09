@@ -5,11 +5,21 @@ Este fluxo de trabalho envia um email quando o gatilho "Test workflow" é aciona
 
 ## Nodes
 
-### 1. Manual Trigger: When clicking "Test workflow"
+### 1. Rodando a aplicação
+
+- Instalando o n8n localmente:
+
+  `npm install n8n -g`
+
+- Rodando localmente:
+
+  `npx n8n`
+
+### 2. Manual Trigger: When clicking "Test workflow"
 - Tipo: `n8n-nodes-base.manualTrigger`
 - Ao clicar neste gatilho, o fluxo de trabalho é acionado.
 
-### 2. Send Email
+### 3. Send Email
 - Tipo: `n8n-nodes-base.emailSend`
 - Este nó envia um email.
 - Parâmetros:
