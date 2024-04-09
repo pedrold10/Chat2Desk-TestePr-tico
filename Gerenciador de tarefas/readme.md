@@ -50,4 +50,4 @@ O aplicativo permite aos usuários gerenciar suas tarefas de forma eficiente, fo
   3. Confirme a exclusão quando solicitado.
 - **Alerta**: A exclusão de uma tarefa é irreversível e não pode ser desfeita. Certifique-se de que deseja excluir a tarefa antes de confirmar a ação.
 
-Link para a aplicação: [https://app.appsmith.com/app/crud-tarefas/pagina1-6615b803f8417458c3951199](#)
+Link para a aplicação: [https://app.appsmith.com/app/crud-tarefas/pagina1-6615b803f8417458c3951199](https://app.appsmith.com/app/crud-tarefas/pagina1-6615b803f8417458c3951199)
