@@ -1,0 +1,79 @@
+{
+  "name": "Envio de email",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "aa2dd581-13fc-4666-b001-51877ed0f452",
+      "name": "When clicking \"Test workflow\"",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        700,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "pedrogabriel12423@gmail.com",
+        "toEmail": "pedrogabriel.pix@hotmail.com",
+        "subject": "Apenas um teste",
+        "html": "<h1>Um mero teste</h1>",
+        "options": {}
+      },
+      "id": "1cff79c1-a3db-4d59-8533-7eed9c812df0",
+      "name": "Send Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        920,
+        240
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "kJUkxgm8EZBJrY92",
+          "name": "SMTP account"
+        }
+      }
+    }
+  ],
+  "pinData": {
+    "Send Email": [
+      {
+        "json": {
+          "name": "First item",
+          "code": 1
+        }
+      },
+      {
+        "json": {
+          "name": "Second item",
+          "code": 2
+        }
+      }
+    ]
+  },
+  "connections": {
+    "When clicking \"Test workflow\"": {
+      "main": [
+        [
+          {
+            "node": "Send Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "623ef3be-ea3d-4223-9a72-7a00ecf399bb",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "0e8a66eac13b350a40de3d3d0b2fb8007a3b6a85b01d08db43b7cb2c461ea261"
+  },
+  "id": "ViWGa5c4r4jZI7aE",
+  "tags": []
+}
