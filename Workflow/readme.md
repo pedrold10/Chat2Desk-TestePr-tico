@@ -15,6 +15,12 @@ Este fluxo de trabalho envia um email quando o gatilho "Test workflow" é aciona
 
   `npx n8n`
 
+- Abrir o seguinte endereço no navegador:
+
+  `localhost:5678`
+
+- Selecione na tela o Workflow: **Envio de email**
+
 ### 2. Manual Trigger: When clicking "Test workflow"
 - Tipo: `n8n-nodes-base.manualTrigger`
 - Ao clicar neste gatilho, o fluxo de trabalho é acionado.
