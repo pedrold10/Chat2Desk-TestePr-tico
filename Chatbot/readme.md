@@ -26,4 +26,4 @@ Aqui estão algumas perguntas frequentes sobre nossos produtos e serviços:
 Clique em qualquer uma das perguntas acima para ver a resposta correspondente. Se sua pergunta não estiver na lista, sinta-se à vontade para digitar manualmente sua dúvida.
 
 
-Link para o chatbot: [https://typebot.co/my-typebot-m6d0bcq](#)
+Link para o chatbot: [https://typebot.co/my-typebot-m6d0bcq](https://typebot.co/my-typebot-m6d0bcq)
